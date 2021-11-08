@@ -107,8 +107,24 @@ button {
 	margin: auto;
 	text-align: center;
 	width: 200px;
-	font-size: 30px;
+	font-size: 25px;
 	cursor: pointer;
+	font-weight: 700;
+}
+
+@media (max-width : 600px) {
+	.kotak {
+		width: 70% ;
+		height: 100%;
+	}
+	button {
+		margin: 20px auto;
+		width: 150px;
+		font-size: 20px;
+	}
+	#hasil {
+		margin-left: 50px;
+	}
 }
 
 
@@ -128,9 +144,9 @@ button {
 </div>
 
 <form>
-	<input type="text" id="input1" placeholder="Masukan Angka 1 Disini">
+	<input type="text" id="input1" placeholder="Masukan Angka Ke-1 Disini">
 	<br><br>
-	<input type="text" id="input2" placeholder="Masukan Angka 2 Disini">
+	<input type="text" id="input2" placeholder="Masukan Angka Ke-2 Disini">
 	<br><br>
 
 	<div class="kotakhasil">
@@ -141,7 +157,7 @@ button {
 	</div>
 
 	
-	<br><br>
+	<br>
 
 </form>
 </div>
